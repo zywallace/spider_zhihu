@@ -1,0 +1,1 @@
+print "\xE5".decode('utf-8')
