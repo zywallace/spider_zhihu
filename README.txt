@@ -1,6 +1,6 @@
 # spider_zhihu
 
-使用python爬下来数据，登录的类和爬虫方法使用了https://github.com/egrcc/zhihu-python的
+使用python爬下来数据，登录的类和爬虫方法使用了https://github.com/egrcc/zhihu-python
 爬虫的逻辑为：
 1）从初始用户开始，找到他的“关注的人”，作为第二层。采用广度优先算法，采集用户的数据，这样得到的用户起码不是“0粉丝”的用户
 这样排除了一些僵尸用户。
